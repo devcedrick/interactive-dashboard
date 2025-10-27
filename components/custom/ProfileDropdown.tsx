@@ -10,12 +10,12 @@ import {
 } from "@/components/ui/dropdown-menu"
 import { LogOut, Settings, User } from 'lucide-react'
 
-const Dropdown = () => {
+const ProfileDropdown = () => {
   return (
     <div>
-      <DropdownMenu>
+      <DropdownMenu >
         <DropdownMenuTrigger>
-          <Avatar>
+          <Avatar className='cursor-pointer hover:scale-105' >
             <AvatarImage src="https://avatars.githubusercontent.com/u/1486366" />
             <AvatarFallback>KC</AvatarFallback>
           </Avatar>
@@ -38,4 +38,4 @@ const Dropdown = () => {
   )
 }
 
-export default Dropdown
+export default ProfileDropdown
