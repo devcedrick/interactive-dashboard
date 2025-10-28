@@ -15,7 +15,7 @@ const ProfileDropdown = () => {
     <div>
       <DropdownMenu >
         <DropdownMenuTrigger>
-          <Avatar className='cursor-pointer hover:scale-105' >
+          <Avatar  className='cursor-pointer hover:scale-105' >
             <AvatarImage src="https://avatars.githubusercontent.com/u/1486366" />
             <AvatarFallback>KC</AvatarFallback>
           </Avatar>
